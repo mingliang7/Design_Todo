@@ -1,0 +1,119 @@
+// Place all the styles related to the site controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$bck:#363f45;
+*{
+	-moz-box-sizing: bordex-box;
+	box-sizing: bordex-box;
+}
+
+html,body{
+	background-color: #EDEFF0;
+	font-family: Helvetica, Verdana, Arial;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;;
+}
+.my-header{
+	
+}
+.container{
+	margin-left:200px;
+}
+.sidebar{
+	top:0;
+	width: 200px;
+	background:#384047;
+	height: 100%;
+	position:fixed;
+	padding-top:30px;
+	.menu{
+		margin-left:0;
+		li{
+			padding-left:35px;
+			padding-top:6px;
+			padding-bottom: 6px;
+			list-style-type:none;
+			img{
+				width:40px;
+			}
+			&:hover{	
+				color:#fff;	
+				border-shadow: 0px 0px 8px #444;	
+			}
+			a{
+				-webkit-transition: all 0.3s;
+				   -moz-transition: all 0.3s;
+				    -ms-transition: all 0.3s;
+				     -o-transition: all 0.3s;
+				        transition: all 0.3s;
+				color:#c7c7c7;
+				text-transform: uppercase;
+				font-style: italic;
+				font-size: 14px;
+				padding-left:15px;
+				padding-top:20px;
+				padding-bottom: 20px;
+				font-weight: bold;
+				&:hover{
+					color:#F2F0DF;
+				}
+			}
+		}
+	}
+}
+.top-bar{
+	margin-left:50px;
+	margin-right: 50px;
+	// box-shadow: 0px 0.5px 2px #000, 0 0 0 #000, 0 0 0 #000,0 0 0 #000;
+	border-radius:2px;
+	vertical-align: baseline;
+	.title-area{
+		h1{
+				a{
+					font-weight: bold;
+					font-size: 16px;
+					text-transform: uppercase;	
+					color:#384047;
+				}
+			}
+	}
+
+	ul{
+		li{
+			background: none;
+
+			a{
+				margin-top:0.5px;
+				background: none;
+				font-weight: bold;
+				font-size: 14px;
+				text-transform: uppercase;	
+				color:#B2BAC2;
+			}
+		}
+	}
+}
+.login-form{
+	margin-top:100px;
+	h2{
+		color: #888;
+		font-size:24px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+}
+
+.bck-login{
+	background: #FFF;
+	padding:20px;
+	-webkit-box-shadow: 0px 0px 5px #888;
+	        box-shadow: 0px 0px 5px #888;
+}
+
+
+
+
+
+
+

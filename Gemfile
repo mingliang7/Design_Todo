@@ -2,6 +2,12 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
+gem 'foundation-rails'
+gem 'devise'
+gem 'better_errors'
+gem 'carrierwave'
+gem 'rmagick'
+gem 'omniauth'
 
 # Use postgresql as the database for Active Record
 gem 'pg'

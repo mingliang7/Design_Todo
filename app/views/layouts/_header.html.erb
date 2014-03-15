@@ -1,0 +1,32 @@
+<div class="sidebar">
+	<ul class="menu">
+		<li><%= image_tag "store.png" %><%= link_to "Home", root_path %></li>
+		<li><%= image_tag "marker.png" %><%= link_to "Blog", site_about_path %></li>
+		<li><%= image_tag "book1.png" %><%= link_to "Library", site_about_path %></li>
+		<li><%= image_tag "www.png" %><%= link_to "About", site_about_path %></li>
+		<li><%= image_tag "mail.png" %><%= link_to "Contact", site_contact_path %></li>
+	</ul>
+</div>	
+
+<div class="container">
+  <nav class="top-bar" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+        <h1><%= link_to "railskhmer.us", root_path %></h1>
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+    </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+	<ul class="right">
+		<li><%= link_to "Help",new_user_session_path %></li>
+		<li><%= link_to "Login",new_user_session_path %></li>
+	</ul>
+    <!-- Left Nav Section -->
+    <ul class="left">
+    	<li><%= link_to "Products" %></li>
+    </ul>
+  </section>
+</nav>
+</div>
